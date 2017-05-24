@@ -15,13 +15,13 @@
 		4E1F1F511ED63C6F00FE3356 /* HampiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E1F1F501ED63C6F00FE3356 /* HampiTests.m */; };
 		4E1F1F5C1ED63C6F00FE3356 /* HampiUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E1F1F5B1ED63C6F00FE3356 /* HampiUITests.m */; };
 		4E1F1F8E1ED640B700FE3356 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4E1F1F8D1ED640B700FE3356 /* GoogleService-Info.plist */; };
-		4E31A4461ED64801002FC24F /* HMPFirebase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E31A43D1ED64800002FC24F /* HMPFirebase.framework */; };
-		4E31A44D1ED64801002FC24F /* HMPFirebaseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E31A44C1ED64801002FC24F /* HMPFirebaseTests.m */; };
-		4E31A44F1ED64801002FC24F /* HMPFirebase.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E31A43F1ED64800002FC24F /* HMPFirebase.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4E31A4521ED64801002FC24F /* HMPFirebase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E31A43D1ED64800002FC24F /* HMPFirebase.framework */; };
-		4E31A4531ED64801002FC24F /* HMPFirebase.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4E31A43D1ED64800002FC24F /* HMPFirebase.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		4E31A45C1ED64823002FC24F /* HMPFAuth.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E31A45A1ED64823002FC24F /* HMPFAuth.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4E31A45D1ED64823002FC24F /* HMPFAuth.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E31A45B1ED64823002FC24F /* HMPFAuth.m */; };
+		4E31A46D1ED6493C002FC24F /* HMPFirebaseKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E31A4641ED6493C002FC24F /* HMPFirebaseKit.framework */; };
+		4E31A4741ED6493C002FC24F /* HMPFirebaseKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E31A4731ED6493C002FC24F /* HMPFirebaseKitTests.m */; };
+		4E31A4761ED6493C002FC24F /* HMPFirebaseKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E31A4661ED6493C002FC24F /* HMPFirebaseKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4E31A4791ED6493C002FC24F /* HMPFirebaseKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E31A4641ED6493C002FC24F /* HMPFirebaseKit.framework */; };
+		4E31A47A1ED6493C002FC24F /* HMPFirebaseKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4E31A4641ED6493C002FC24F /* HMPFirebaseKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		4E31A4831ED6494E002FC24F /* HMPFAuth.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E31A4811ED6494E002FC24F /* HMPFAuth.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4E31A4841ED6494E002FC24F /* HMPFAuth.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E31A4821ED6494E002FC24F /* HMPFAuth.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,26 +39,26 @@
 			remoteGlobalIDString = 4E1F1F321ED63C6F00FE3356;
 			remoteInfo = Hampi;
 		};
-		4E31A4471ED64801002FC24F /* PBXContainerItemProxy */ = {
+		4E31A46E1ED6493C002FC24F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 4E1F1F2B1ED63C6F00FE3356 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 4E31A43C1ED64800002FC24F;
-			remoteInfo = HMPFirebase;
+			remoteGlobalIDString = 4E31A4631ED6493C002FC24F;
+			remoteInfo = HMPFirebaseKit;
 		};
-		4E31A4491ED64801002FC24F /* PBXContainerItemProxy */ = {
+		4E31A4701ED6493C002FC24F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 4E1F1F2B1ED63C6F00FE3356 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 4E1F1F321ED63C6F00FE3356;
 			remoteInfo = Hampi;
 		};
-		4E31A4501ED64801002FC24F /* PBXContainerItemProxy */ = {
+		4E31A4771ED6493C002FC24F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 4E1F1F2B1ED63C6F00FE3356 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 4E31A43C1ED64800002FC24F;
-			remoteInfo = HMPFirebase;
+			remoteGlobalIDString = 4E31A4631ED6493C002FC24F;
+			remoteInfo = HMPFirebaseKit;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -69,7 +69,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				4E31A4531ED64801002FC24F /* HMPFirebase.framework in Embed Frameworks */,
+				4E31A47A1ED6493C002FC24F /* HMPFirebaseKit.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -93,14 +93,14 @@
 		4E1F1F5B1ED63C6F00FE3356 /* HampiUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HampiUITests.m; sourceTree = "<group>"; };
 		4E1F1F5D1ED63C6F00FE3356 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4E1F1F8D1ED640B700FE3356 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "Support/GoogleService-Info.plist"; sourceTree = "<group>"; };
-		4E31A43D1ED64800002FC24F /* HMPFirebase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HMPFirebase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4E31A43F1ED64800002FC24F /* HMPFirebase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HMPFirebase.h; sourceTree = "<group>"; };
-		4E31A4401ED64800002FC24F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4E31A4451ED64801002FC24F /* HMPFirebaseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HMPFirebaseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		4E31A44C1ED64801002FC24F /* HMPFirebaseTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HMPFirebaseTests.m; sourceTree = "<group>"; };
-		4E31A44E1ED64801002FC24F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4E31A45A1ED64823002FC24F /* HMPFAuth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMPFAuth.h; sourceTree = "<group>"; };
-		4E31A45B1ED64823002FC24F /* HMPFAuth.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMPFAuth.m; sourceTree = "<group>"; };
+		4E31A4641ED6493C002FC24F /* HMPFirebaseKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HMPFirebaseKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E31A4661ED6493C002FC24F /* HMPFirebaseKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HMPFirebaseKit.h; sourceTree = "<group>"; };
+		4E31A4671ED6493C002FC24F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E31A46C1ED6493C002FC24F /* HMPFirebaseKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HMPFirebaseKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E31A4731ED6493C002FC24F /* HMPFirebaseKitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HMPFirebaseKitTests.m; sourceTree = "<group>"; };
+		4E31A4751ED6493C002FC24F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E31A4811ED6494E002FC24F /* HMPFAuth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMPFAuth.h; sourceTree = "<group>"; };
+		4E31A4821ED6494E002FC24F /* HMPFAuth.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMPFAuth.m; sourceTree = "<group>"; };
 		5DFE4B075C022DE905CE5969 /* Pods-HMPFirebase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HMPFirebase.release.xcconfig"; path = "Pods/Target Support Files/Pods-HMPFirebase/Pods-HMPFirebase.release.xcconfig"; sourceTree = "<group>"; };
 		8F21F5D6FDFD26BF2AACE87F /* Pods_Hampi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Hampi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7D8E62AA99072D80C157CDD /* Pods_HMPFirebase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HMPFirebase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -111,7 +111,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4E31A4521ED64801002FC24F /* HMPFirebase.framework in Frameworks */,
+				4E31A4791ED6493C002FC24F /* HMPFirebaseKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -129,18 +129,18 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4E31A4391ED64800002FC24F /* Frameworks */ = {
+		4E31A4601ED6493C002FC24F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4E31A4421ED64801002FC24F /* Frameworks */ = {
+		4E31A4691ED6493C002FC24F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4E31A4461ED64801002FC24F /* HMPFirebase.framework in Frameworks */,
+				4E31A46D1ED6493C002FC24F /* HMPFirebaseKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -153,8 +153,8 @@
 				4E1F1F351ED63C6F00FE3356 /* Hampi */,
 				4E1F1F4F1ED63C6F00FE3356 /* HampiTests */,
 				4E1F1F5A1ED63C6F00FE3356 /* HampiUITests */,
-				4E31A43E1ED64800002FC24F /* HMPFirebase */,
-				4E31A44B1ED64801002FC24F /* HMPFirebaseTests */,
+				4E31A4651ED6493C002FC24F /* HMPFirebaseKit */,
+				4E31A4721ED6493C002FC24F /* HMPFirebaseKitTests */,
 				4E1F1F341ED63C6F00FE3356 /* Products */,
 				70BD51959E2485135B6F52EF /* Pods */,
 				7779F882646B72C7D77C8AFE /* Frameworks */,
@@ -167,8 +167,8 @@
 				4E1F1F331ED63C6F00FE3356 /* Hampi.app */,
 				4E1F1F4C1ED63C6F00FE3356 /* HampiTests.xctest */,
 				4E1F1F571ED63C6F00FE3356 /* HampiUITests.xctest */,
-				4E31A43D1ED64800002FC24F /* HMPFirebase.framework */,
-				4E31A4451ED64801002FC24F /* HMPFirebaseTests.xctest */,
+				4E31A4641ED6493C002FC24F /* HMPFirebaseKit.framework */,
+				4E31A46C1ED6493C002FC24F /* HMPFirebaseKitTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -222,24 +222,24 @@
 			name = Support;
 			sourceTree = "<group>";
 		};
-		4E31A43E1ED64800002FC24F /* HMPFirebase */ = {
+		4E31A4651ED6493C002FC24F /* HMPFirebaseKit */ = {
 			isa = PBXGroup;
 			children = (
-				4E31A43F1ED64800002FC24F /* HMPFirebase.h */,
-				4E31A4401ED64800002FC24F /* Info.plist */,
-				4E31A45A1ED64823002FC24F /* HMPFAuth.h */,
-				4E31A45B1ED64823002FC24F /* HMPFAuth.m */,
+				4E31A4661ED6493C002FC24F /* HMPFirebaseKit.h */,
+				4E31A4671ED6493C002FC24F /* Info.plist */,
+				4E31A4811ED6494E002FC24F /* HMPFAuth.h */,
+				4E31A4821ED6494E002FC24F /* HMPFAuth.m */,
 			);
-			path = HMPFirebase;
+			path = HMPFirebaseKit;
 			sourceTree = "<group>";
 		};
-		4E31A44B1ED64801002FC24F /* HMPFirebaseTests */ = {
+		4E31A4721ED6493C002FC24F /* HMPFirebaseKitTests */ = {
 			isa = PBXGroup;
 			children = (
-				4E31A44C1ED64801002FC24F /* HMPFirebaseTests.m */,
-				4E31A44E1ED64801002FC24F /* Info.plist */,
+				4E31A4731ED6493C002FC24F /* HMPFirebaseKitTests.m */,
+				4E31A4751ED6493C002FC24F /* Info.plist */,
 			);
-			path = HMPFirebaseTests;
+			path = HMPFirebaseKitTests;
 			sourceTree = "<group>";
 		};
 		70BD51959E2485135B6F52EF /* Pods */ = {
@@ -263,12 +263,12 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		4E31A43A1ED64800002FC24F /* Headers */ = {
+		4E31A4611ED6493C002FC24F /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4E31A44F1ED64801002FC24F /* HMPFirebase.h in Headers */,
-				4E31A45C1ED64823002FC24F /* HMPFAuth.h in Headers */,
+				4E31A4761ED6493C002FC24F /* HMPFirebaseKit.h in Headers */,
+				4E31A4831ED6494E002FC24F /* HMPFAuth.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,7 +287,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				4E31A4511ED64801002FC24F /* PBXTargetDependency */,
+				4E31A4781ED6493C002FC24F /* PBXTargetDependency */,
 			);
 			name = Hampi;
 			productName = Hampi;
@@ -330,41 +330,41 @@
 			productReference = 4E1F1F571ED63C6F00FE3356 /* HampiUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
-		4E31A43C1ED64800002FC24F /* HMPFirebase */ = {
+		4E31A4631ED6493C002FC24F /* HMPFirebaseKit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4E31A4541ED64801002FC24F /* Build configuration list for PBXNativeTarget "HMPFirebase" */;
+			buildConfigurationList = 4E31A47B1ED6493C002FC24F /* Build configuration list for PBXNativeTarget "HMPFirebaseKit" */;
 			buildPhases = (
-				4E31A4381ED64800002FC24F /* Sources */,
-				4E31A4391ED64800002FC24F /* Frameworks */,
-				4E31A43A1ED64800002FC24F /* Headers */,
-				4E31A43B1ED64800002FC24F /* Resources */,
+				4E31A45F1ED6493C002FC24F /* Sources */,
+				4E31A4601ED6493C002FC24F /* Frameworks */,
+				4E31A4611ED6493C002FC24F /* Headers */,
+				4E31A4621ED6493C002FC24F /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = HMPFirebase;
-			productName = HMPFirebase;
-			productReference = 4E31A43D1ED64800002FC24F /* HMPFirebase.framework */;
+			name = HMPFirebaseKit;
+			productName = HMPFirebaseKit;
+			productReference = 4E31A4641ED6493C002FC24F /* HMPFirebaseKit.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		4E31A4441ED64801002FC24F /* HMPFirebaseTests */ = {
+		4E31A46B1ED6493C002FC24F /* HMPFirebaseKitTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4E31A4571ED64801002FC24F /* Build configuration list for PBXNativeTarget "HMPFirebaseTests" */;
+			buildConfigurationList = 4E31A47E1ED6493C002FC24F /* Build configuration list for PBXNativeTarget "HMPFirebaseKitTests" */;
 			buildPhases = (
-				4E31A4411ED64801002FC24F /* Sources */,
-				4E31A4421ED64801002FC24F /* Frameworks */,
-				4E31A4431ED64801002FC24F /* Resources */,
+				4E31A4681ED6493C002FC24F /* Sources */,
+				4E31A4691ED6493C002FC24F /* Frameworks */,
+				4E31A46A1ED6493C002FC24F /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				4E31A4481ED64801002FC24F /* PBXTargetDependency */,
-				4E31A44A1ED64801002FC24F /* PBXTargetDependency */,
+				4E31A46F1ED6493C002FC24F /* PBXTargetDependency */,
+				4E31A4711ED6493C002FC24F /* PBXTargetDependency */,
 			);
-			name = HMPFirebaseTests;
-			productName = HMPFirebaseTests;
-			productReference = 4E31A4451ED64801002FC24F /* HMPFirebaseTests.xctest */;
+			name = HMPFirebaseKitTests;
+			productName = HMPFirebaseKitTests;
+			productReference = 4E31A46C1ED6493C002FC24F /* HMPFirebaseKitTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -393,12 +393,12 @@
 						ProvisioningStyle = Automatic;
 						TestTargetID = 4E1F1F321ED63C6F00FE3356;
 					};
-					4E31A43C1ED64800002FC24F = {
+					4E31A4631ED6493C002FC24F = {
 						CreatedOnToolsVersion = 8.3.2;
 						DevelopmentTeam = U9QF88MGC2;
 						ProvisioningStyle = Automatic;
 					};
-					4E31A4441ED64801002FC24F = {
+					4E31A46B1ED6493C002FC24F = {
 						CreatedOnToolsVersion = 8.3.2;
 						DevelopmentTeam = U9QF88MGC2;
 						ProvisioningStyle = Automatic;
@@ -422,8 +422,8 @@
 				4E1F1F321ED63C6F00FE3356 /* Hampi */,
 				4E1F1F4B1ED63C6F00FE3356 /* HampiTests */,
 				4E1F1F561ED63C6F00FE3356 /* HampiUITests */,
-				4E31A43C1ED64800002FC24F /* HMPFirebase */,
-				4E31A4441ED64801002FC24F /* HMPFirebaseTests */,
+				4E31A4631ED6493C002FC24F /* HMPFirebaseKit */,
+				4E31A46B1ED6493C002FC24F /* HMPFirebaseKitTests */,
 			);
 		};
 /* End PBXProject section */
@@ -454,14 +454,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4E31A43B1ED64800002FC24F /* Resources */ = {
+		4E31A4621ED6493C002FC24F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4E31A4431ED64801002FC24F /* Resources */ = {
+		4E31A46A1ED6493C002FC24F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -496,19 +496,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4E31A4381ED64800002FC24F /* Sources */ = {
+		4E31A45F1ED6493C002FC24F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4E31A45D1ED64823002FC24F /* HMPFAuth.m in Sources */,
+				4E31A4841ED6494E002FC24F /* HMPFAuth.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4E31A4411ED64801002FC24F /* Sources */ = {
+		4E31A4681ED6493C002FC24F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4E31A44D1ED64801002FC24F /* HMPFirebaseTests.m in Sources */,
+				4E31A4741ED6493C002FC24F /* HMPFirebaseKitTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -525,20 +525,20 @@
 			target = 4E1F1F321ED63C6F00FE3356 /* Hampi */;
 			targetProxy = 4E1F1F581ED63C6F00FE3356 /* PBXContainerItemProxy */;
 		};
-		4E31A4481ED64801002FC24F /* PBXTargetDependency */ = {
+		4E31A46F1ED6493C002FC24F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 4E31A43C1ED64800002FC24F /* HMPFirebase */;
-			targetProxy = 4E31A4471ED64801002FC24F /* PBXContainerItemProxy */;
+			target = 4E31A4631ED6493C002FC24F /* HMPFirebaseKit */;
+			targetProxy = 4E31A46E1ED6493C002FC24F /* PBXContainerItemProxy */;
 		};
-		4E31A44A1ED64801002FC24F /* PBXTargetDependency */ = {
+		4E31A4711ED6493C002FC24F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 4E1F1F321ED63C6F00FE3356 /* Hampi */;
-			targetProxy = 4E31A4491ED64801002FC24F /* PBXContainerItemProxy */;
+			targetProxy = 4E31A4701ED6493C002FC24F /* PBXContainerItemProxy */;
 		};
-		4E31A4511ED64801002FC24F /* PBXTargetDependency */ = {
+		4E31A4781ED6493C002FC24F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 4E31A43C1ED64800002FC24F /* HMPFirebase */;
-			targetProxy = 4E31A4501ED64801002FC24F /* PBXContainerItemProxy */;
+			target = 4E31A4631ED6493C002FC24F /* HMPFirebaseKit */;
+			targetProxy = 4E31A4771ED6493C002FC24F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -730,7 +730,7 @@
 			};
 			name = Release;
 		};
-		4E31A4551ED64801002FC24F /* Debug */ = {
+		4E31A47C1ED6493C002FC24F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
@@ -740,10 +740,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = HMPFirebase/Info.plist;
+				INFOPLIST_FILE = HMPFirebaseKit/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = Hamp.HMPFirebase;
+				PRODUCT_BUNDLE_IDENTIFIER = Hamp.HMPFirebaseKit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -751,7 +751,7 @@
 			};
 			name = Debug;
 		};
-		4E31A4561ED64801002FC24F /* Release */ = {
+		4E31A47D1ED6493C002FC24F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
@@ -761,10 +761,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = HMPFirebase/Info.plist;
+				INFOPLIST_FILE = HMPFirebaseKit/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = Hamp.HMPFirebase;
+				PRODUCT_BUNDLE_IDENTIFIER = Hamp.HMPFirebaseKit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -772,25 +772,25 @@
 			};
 			name = Release;
 		};
-		4E31A4581ED64801002FC24F /* Debug */ = {
+		4E31A47F1ED6493C002FC24F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DEVELOPMENT_TEAM = U9QF88MGC2;
-				INFOPLIST_FILE = HMPFirebaseTests/Info.plist;
+				INFOPLIST_FILE = HMPFirebaseKitTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = Hamp.HMPFirebaseTests;
+				PRODUCT_BUNDLE_IDENTIFIER = Hamp.HMPFirebaseKitTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hampi.app/Hampi";
 			};
 			name = Debug;
 		};
-		4E31A4591ED64801002FC24F /* Release */ = {
+		4E31A4801ED6493C002FC24F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DEVELOPMENT_TEAM = U9QF88MGC2;
-				INFOPLIST_FILE = HMPFirebaseTests/Info.plist;
+				INFOPLIST_FILE = HMPFirebaseKitTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = Hamp.HMPFirebaseTests;
+				PRODUCT_BUNDLE_IDENTIFIER = Hamp.HMPFirebaseKitTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hampi.app/Hampi";
 			};
@@ -835,19 +835,19 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4E31A4541ED64801002FC24F /* Build configuration list for PBXNativeTarget "HMPFirebase" */ = {
+		4E31A47B1ED6493C002FC24F /* Build configuration list for PBXNativeTarget "HMPFirebaseKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4E31A4551ED64801002FC24F /* Debug */,
-				4E31A4561ED64801002FC24F /* Release */,
+				4E31A47C1ED6493C002FC24F /* Debug */,
+				4E31A47D1ED6493C002FC24F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
-		4E31A4571ED64801002FC24F /* Build configuration list for PBXNativeTarget "HMPFirebaseTests" */ = {
+		4E31A47E1ED6493C002FC24F /* Build configuration list for PBXNativeTarget "HMPFirebaseKitTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4E31A4581ED64801002FC24F /* Debug */,
-				4E31A4591ED64801002FC24F /* Release */,
+				4E31A47F1ED6493C002FC24F /* Debug */,
+				4E31A4801ED6493C002FC24F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};

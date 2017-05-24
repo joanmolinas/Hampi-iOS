@@ -1,6 +1,6 @@
 //
-//  HMPFirebaseTests.m
-//  HMPFirebaseTests
+//  HMPFirebaseKitTests.m
+//  HMPFirebaseKitTests
 //
 //  Created by Joan Molinas Ramon on 25/5/17.
 //  Copyright © 2017 com.hamp. All rights reserved.
@@ -8,11 +8,11 @@
 
 #import <XCTest/XCTest.h>
 
-@interface HMPFirebaseTests : XCTestCase
+@interface HMPFirebaseKitTests : XCTestCase
 
 @end
 
-@implementation HMPFirebaseTests
+@implementation HMPFirebaseKitTests
 
 - (void)setUp {
     [super setUp];

@@ -5,3 +5,4 @@
 - Xcode project
 - Pods added
 - Firebase files added
+- HMPFirebaseKit framework created

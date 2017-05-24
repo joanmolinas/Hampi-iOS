@@ -8,7 +8,7 @@
 
 #import "AppDelegate.h"
 
-@import HMPFirebase;
+@import HMPFirebaseKit;
 
 @interface AppDelegate ()
 
