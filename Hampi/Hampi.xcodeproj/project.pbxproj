@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3CE9816B4010680ABE06D99E /* Pods_Hampi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F21F5D6FDFD26BF2AACE87F /* Pods_Hampi.framework */; };
+		4B461B0EEC76F40BFABB2728 /* libPods-HMPFirebaseKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 862DA6ED01FE76DAD74F8B5E /* libPods-HMPFirebaseKit.a */; };
 		4E1F1F381ED63C6F00FE3356 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E1F1F371ED63C6F00FE3356 /* main.m */; };
 		4E1F1F3B1ED63C6F00FE3356 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E1F1F3A1ED63C6F00FE3356 /* AppDelegate.m */; };
 		4E1F1F411ED63C6F00FE3356 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E1F1F3F1ED63C6F00FE3356 /* Main.storyboard */; };
@@ -101,7 +103,12 @@
 		4E31A4751ED6493C002FC24F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4E31A4811ED6494E002FC24F /* HMPFAuth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMPFAuth.h; sourceTree = "<group>"; };
 		4E31A4821ED6494E002FC24F /* HMPFAuth.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMPFAuth.m; sourceTree = "<group>"; };
+		513AB45D5BFCBD0C1FA9C548 /* Pods-Hampi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hampi.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Hampi/Pods-Hampi.debug.xcconfig"; sourceTree = "<group>"; };
+		59E7006A0F516D9670F913AC /* Pods-HMPFirebaseKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HMPFirebaseKit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HMPFirebaseKit/Pods-HMPFirebaseKit.debug.xcconfig"; sourceTree = "<group>"; };
 		5DFE4B075C022DE905CE5969 /* Pods-HMPFirebase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HMPFirebase.release.xcconfig"; path = "Pods/Target Support Files/Pods-HMPFirebase/Pods-HMPFirebase.release.xcconfig"; sourceTree = "<group>"; };
+		6A3876E25C49252E958D8B28 /* Pods-HMPFirebaseKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HMPFirebaseKit.release.xcconfig"; path = "Pods/Target Support Files/Pods-HMPFirebaseKit/Pods-HMPFirebaseKit.release.xcconfig"; sourceTree = "<group>"; };
+		8311844CB688AF8493CCD1DD /* Pods-Hampi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hampi.release.xcconfig"; path = "Pods/Target Support Files/Pods-Hampi/Pods-Hampi.release.xcconfig"; sourceTree = "<group>"; };
+		862DA6ED01FE76DAD74F8B5E /* libPods-HMPFirebaseKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HMPFirebaseKit.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F21F5D6FDFD26BF2AACE87F /* Pods_Hampi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Hampi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7D8E62AA99072D80C157CDD /* Pods_HMPFirebase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HMPFirebase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -112,6 +119,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4E31A4791ED6493C002FC24F /* HMPFirebaseKit.framework in Frameworks */,
+				3CE9816B4010680ABE06D99E /* Pods_Hampi.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -133,6 +141,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B461B0EEC76F40BFABB2728 /* libPods-HMPFirebaseKit.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -247,6 +256,10 @@
 			children = (
 				1813403A000A302067AED957 /* Pods-HMPFirebase.debug.xcconfig */,
 				5DFE4B075C022DE905CE5969 /* Pods-HMPFirebase.release.xcconfig */,
+				59E7006A0F516D9670F913AC /* Pods-HMPFirebaseKit.debug.xcconfig */,
+				6A3876E25C49252E958D8B28 /* Pods-HMPFirebaseKit.release.xcconfig */,
+				513AB45D5BFCBD0C1FA9C548 /* Pods-Hampi.debug.xcconfig */,
+				8311844CB688AF8493CCD1DD /* Pods-Hampi.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -256,6 +269,7 @@
 			children = (
 				8F21F5D6FDFD26BF2AACE87F /* Pods_Hampi.framework */,
 				F7D8E62AA99072D80C157CDD /* Pods_HMPFirebase.framework */,
+				862DA6ED01FE76DAD74F8B5E /* libPods-HMPFirebaseKit.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -279,10 +293,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4E1F1F601ED63C6F00FE3356 /* Build configuration list for PBXNativeTarget "Hampi" */;
 			buildPhases = (
+				95148D4F2479A04BA6924B3A /* [CP] Check Pods Manifest.lock */,
 				4E1F1F2F1ED63C6F00FE3356 /* Sources */,
 				4E1F1F301ED63C6F00FE3356 /* Frameworks */,
 				4E1F1F311ED63C6F00FE3356 /* Resources */,
 				4E1F1F8A1ED6404800FE3356 /* Embed Frameworks */,
+				81C1B9530607C68937DE3D08 /* [CP] Embed Pods Frameworks */,
+				05469924976293187BDF6FB3 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -334,10 +351,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4E31A47B1ED6493C002FC24F /* Build configuration list for PBXNativeTarget "HMPFirebaseKit" */;
 			buildPhases = (
+				04BDE7E57250FCD6FB821487 /* [CP] Check Pods Manifest.lock */,
 				4E31A45F1ED6493C002FC24F /* Sources */,
 				4E31A4601ED6493C002FC24F /* Frameworks */,
 				4E31A4611ED6493C002FC24F /* Headers */,
 				4E31A4621ED6493C002FC24F /* Resources */,
+				D504D457C2EDD8B171FCB7D1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -469,6 +488,84 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		04BDE7E57250FCD6FB821487 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		05469924976293187BDF6FB3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Hampi/Pods-Hampi-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		81C1B9530607C68937DE3D08 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Hampi/Pods-Hampi-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		95148D4F2479A04BA6924B3A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D504D457C2EDD8B171FCB7D1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HMPFirebaseKit/Pods-HMPFirebaseKit-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		4E1F1F2F1ED63C6F00FE3356 /* Sources */ = {
@@ -656,6 +753,7 @@
 		};
 		4E1F1F611ED63C6F00FE3356 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 513AB45D5BFCBD0C1FA9C548 /* Pods-Hampi.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
@@ -669,6 +767,7 @@
 		};
 		4E1F1F621ED63C6F00FE3356 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8311844CB688AF8493CCD1DD /* Pods-Hampi.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
@@ -732,7 +831,9 @@
 		};
 		4E31A47C1ED6493C002FC24F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 59E7006A0F516D9670F913AC /* Pods-HMPFirebaseKit.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -753,7 +854,9 @@
 		};
 		4E31A47D1ED6493C002FC24F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A3876E25C49252E958D8B28 /* Pods-HMPFirebaseKit.release.xcconfig */;
 			buildSettings = {
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -842,6 +945,7 @@
 				4E31A47D1ED6493C002FC24F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4E31A47E1ED6493C002FC24F /* Build configuration list for PBXNativeTarget "HMPFirebaseKitTests" */ = {
 			isa = XCConfigurationList;
@@ -850,6 +954,7 @@
 				4E31A4801ED6493C002FC24F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
