@@ -7,7 +7,8 @@
 //
 
 #import "AppDelegate.h"
-#import "HMPFAuth.h"
+
+@import HMPFirebase;
 
 @interface AppDelegate ()
 

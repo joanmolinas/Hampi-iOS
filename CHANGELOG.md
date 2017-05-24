@@ -1,6 +1,7 @@
 # Hampi Change Log
 
-
-## 0.0.1 - 2017-05-25
+## [Unreleased]
 ### Added
-- Xcode Project
+- Xcode project
+- Pods added
+- Firebase files added

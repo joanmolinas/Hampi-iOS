@@ -14,6 +14,6 @@ FOUNDATION_EXPORT double HMPFirebaseVersionNumber;
 //! Project version string for HMPFirebase.
 FOUNDATION_EXPORT const unsigned char HMPFirebaseVersionString[];
 
-// In this header, you should import all the public headers of your framework using statements like #import <HMPFirebase/PublicHeader.h>
+#import <HMPFirebase/HMPFAuth.h>
 
 

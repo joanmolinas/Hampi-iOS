@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2D11AF0B8B01E85E29A334E2 /* Pods_Hampi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F21F5D6FDFD26BF2AACE87F /* Pods_Hampi.framework */; };
 		4E1F1F381ED63C6F00FE3356 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E1F1F371ED63C6F00FE3356 /* main.m */; };
 		4E1F1F3B1ED63C6F00FE3356 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E1F1F3A1ED63C6F00FE3356 /* AppDelegate.m */; };
 		4E1F1F411ED63C6F00FE3356 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E1F1F3F1ED63C6F00FE3356 /* Main.storyboard */; };
@@ -15,13 +14,14 @@
 		4E1F1F461ED63C6F00FE3356 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E1F1F441ED63C6F00FE3356 /* LaunchScreen.storyboard */; };
 		4E1F1F511ED63C6F00FE3356 /* HampiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E1F1F501ED63C6F00FE3356 /* HampiTests.m */; };
 		4E1F1F5C1ED63C6F00FE3356 /* HampiUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E1F1F5B1ED63C6F00FE3356 /* HampiUITests.m */; };
-		4E1F1F771ED6404800FE3356 /* HMPFirebase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E1F1F6E1ED6404800FE3356 /* HMPFirebase.framework */; };
-		4E1F1F7E1ED6404800FE3356 /* HMPFirebaseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E1F1F7D1ED6404800FE3356 /* HMPFirebaseTests.m */; };
-		4E1F1F801ED6404800FE3356 /* HMPFirebase.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E1F1F701ED6404800FE3356 /* HMPFirebase.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4E1F1F831ED6404800FE3356 /* HMPFirebase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E1F1F6E1ED6404800FE3356 /* HMPFirebase.framework */; };
-		4E1F1F841ED6404800FE3356 /* HMPFirebase.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4E1F1F6E1ED6404800FE3356 /* HMPFirebase.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		4E1F1F8E1ED640B700FE3356 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4E1F1F8D1ED640B700FE3356 /* GoogleService-Info.plist */; };
-		4E1F1F8F1ED640B700FE3356 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4E1F1F8D1ED640B700FE3356 /* GoogleService-Info.plist */; };
+		4E31A4461ED64801002FC24F /* HMPFirebase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E31A43D1ED64800002FC24F /* HMPFirebase.framework */; };
+		4E31A44D1ED64801002FC24F /* HMPFirebaseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E31A44C1ED64801002FC24F /* HMPFirebaseTests.m */; };
+		4E31A44F1ED64801002FC24F /* HMPFirebase.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E31A43F1ED64800002FC24F /* HMPFirebase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4E31A4521ED64801002FC24F /* HMPFirebase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E31A43D1ED64800002FC24F /* HMPFirebase.framework */; };
+		4E31A4531ED64801002FC24F /* HMPFirebase.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4E31A43D1ED64800002FC24F /* HMPFirebase.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		4E31A45C1ED64823002FC24F /* HMPFAuth.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E31A45A1ED64823002FC24F /* HMPFAuth.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4E31A45D1ED64823002FC24F /* HMPFAuth.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E31A45B1ED64823002FC24F /* HMPFAuth.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,25 +39,25 @@
 			remoteGlobalIDString = 4E1F1F321ED63C6F00FE3356;
 			remoteInfo = Hampi;
 		};
-		4E1F1F781ED6404800FE3356 /* PBXContainerItemProxy */ = {
+		4E31A4471ED64801002FC24F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 4E1F1F2B1ED63C6F00FE3356 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 4E1F1F6D1ED6404800FE3356;
+			remoteGlobalIDString = 4E31A43C1ED64800002FC24F;
 			remoteInfo = HMPFirebase;
 		};
-		4E1F1F7A1ED6404800FE3356 /* PBXContainerItemProxy */ = {
+		4E31A4491ED64801002FC24F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 4E1F1F2B1ED63C6F00FE3356 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 4E1F1F321ED63C6F00FE3356;
 			remoteInfo = Hampi;
 		};
-		4E1F1F811ED6404800FE3356 /* PBXContainerItemProxy */ = {
+		4E31A4501ED64801002FC24F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 4E1F1F2B1ED63C6F00FE3356 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 4E1F1F6D1ED6404800FE3356;
+			remoteGlobalIDString = 4E31A43C1ED64800002FC24F;
 			remoteInfo = HMPFirebase;
 		};
 /* End PBXContainerItemProxy section */
@@ -69,7 +69,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				4E1F1F841ED6404800FE3356 /* HMPFirebase.framework in Embed Frameworks */,
+				4E31A4531ED64801002FC24F /* HMPFirebase.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -77,6 +77,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		1813403A000A302067AED957 /* Pods-HMPFirebase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HMPFirebase.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HMPFirebase/Pods-HMPFirebase.debug.xcconfig"; sourceTree = "<group>"; };
 		4E1F1F331ED63C6F00FE3356 /* Hampi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hampi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E1F1F371ED63C6F00FE3356 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4E1F1F391ED63C6F00FE3356 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -91,16 +92,18 @@
 		4E1F1F571ED63C6F00FE3356 /* HampiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HampiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E1F1F5B1ED63C6F00FE3356 /* HampiUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HampiUITests.m; sourceTree = "<group>"; };
 		4E1F1F5D1ED63C6F00FE3356 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4E1F1F6E1ED6404800FE3356 /* HMPFirebase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HMPFirebase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4E1F1F701ED6404800FE3356 /* HMPFirebase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HMPFirebase.h; sourceTree = "<group>"; };
-		4E1F1F711ED6404800FE3356 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4E1F1F761ED6404800FE3356 /* HMPFirebaseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HMPFirebaseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		4E1F1F7D1ED6404800FE3356 /* HMPFirebaseTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HMPFirebaseTests.m; sourceTree = "<group>"; };
-		4E1F1F7F1ED6404800FE3356 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4E1F1F8D1ED640B700FE3356 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "Support/GoogleService-Info.plist"; sourceTree = "<group>"; };
-		7DB72D272AAACC75B01C0FB1 /* Pods-Hampi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hampi.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Hampi/Pods-Hampi.debug.xcconfig"; sourceTree = "<group>"; };
+		4E31A43D1ED64800002FC24F /* HMPFirebase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HMPFirebase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E31A43F1ED64800002FC24F /* HMPFirebase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HMPFirebase.h; sourceTree = "<group>"; };
+		4E31A4401ED64800002FC24F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E31A4451ED64801002FC24F /* HMPFirebaseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HMPFirebaseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E31A44C1ED64801002FC24F /* HMPFirebaseTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HMPFirebaseTests.m; sourceTree = "<group>"; };
+		4E31A44E1ED64801002FC24F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E31A45A1ED64823002FC24F /* HMPFAuth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMPFAuth.h; sourceTree = "<group>"; };
+		4E31A45B1ED64823002FC24F /* HMPFAuth.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMPFAuth.m; sourceTree = "<group>"; };
+		5DFE4B075C022DE905CE5969 /* Pods-HMPFirebase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HMPFirebase.release.xcconfig"; path = "Pods/Target Support Files/Pods-HMPFirebase/Pods-HMPFirebase.release.xcconfig"; sourceTree = "<group>"; };
 		8F21F5D6FDFD26BF2AACE87F /* Pods_Hampi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Hampi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E6C90AC7EF39C3BC236AA421 /* Pods-Hampi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hampi.release.xcconfig"; path = "Pods/Target Support Files/Pods-Hampi/Pods-Hampi.release.xcconfig"; sourceTree = "<group>"; };
+		F7D8E62AA99072D80C157CDD /* Pods_HMPFirebase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HMPFirebase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,8 +111,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2D11AF0B8B01E85E29A334E2 /* Pods_Hampi.framework in Frameworks */,
-				4E1F1F831ED6404800FE3356 /* HMPFirebase.framework in Frameworks */,
+				4E31A4521ED64801002FC24F /* HMPFirebase.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -127,18 +129,18 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4E1F1F6A1ED6404800FE3356 /* Frameworks */ = {
+		4E31A4391ED64800002FC24F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4E1F1F731ED6404800FE3356 /* Frameworks */ = {
+		4E31A4421ED64801002FC24F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4E1F1F771ED6404800FE3356 /* HMPFirebase.framework in Frameworks */,
+				4E31A4461ED64801002FC24F /* HMPFirebase.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -151,8 +153,8 @@
 				4E1F1F351ED63C6F00FE3356 /* Hampi */,
 				4E1F1F4F1ED63C6F00FE3356 /* HampiTests */,
 				4E1F1F5A1ED63C6F00FE3356 /* HampiUITests */,
-				4E1F1F6F1ED6404800FE3356 /* HMPFirebase */,
-				4E1F1F7C1ED6404800FE3356 /* HMPFirebaseTests */,
+				4E31A43E1ED64800002FC24F /* HMPFirebase */,
+				4E31A44B1ED64801002FC24F /* HMPFirebaseTests */,
 				4E1F1F341ED63C6F00FE3356 /* Products */,
 				70BD51959E2485135B6F52EF /* Pods */,
 				7779F882646B72C7D77C8AFE /* Frameworks */,
@@ -165,8 +167,8 @@
 				4E1F1F331ED63C6F00FE3356 /* Hampi.app */,
 				4E1F1F4C1ED63C6F00FE3356 /* HampiTests.xctest */,
 				4E1F1F571ED63C6F00FE3356 /* HampiUITests.xctest */,
-				4E1F1F6E1ED6404800FE3356 /* HMPFirebase.framework */,
-				4E1F1F761ED6404800FE3356 /* HMPFirebaseTests.xctest */,
+				4E31A43D1ED64800002FC24F /* HMPFirebase.framework */,
+				4E31A4451ED64801002FC24F /* HMPFirebaseTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -208,24 +210,6 @@
 			path = HampiUITests;
 			sourceTree = "<group>";
 		};
-		4E1F1F6F1ED6404800FE3356 /* HMPFirebase */ = {
-			isa = PBXGroup;
-			children = (
-				4E1F1F701ED6404800FE3356 /* HMPFirebase.h */,
-				4E1F1F711ED6404800FE3356 /* Info.plist */,
-			);
-			path = HMPFirebase;
-			sourceTree = "<group>";
-		};
-		4E1F1F7C1ED6404800FE3356 /* HMPFirebaseTests */ = {
-			isa = PBXGroup;
-			children = (
-				4E1F1F7D1ED6404800FE3356 /* HMPFirebaseTests.m */,
-				4E1F1F7F1ED6404800FE3356 /* Info.plist */,
-			);
-			path = HMPFirebaseTests;
-			sourceTree = "<group>";
-		};
 		4E1F1F8C1ED6408700FE3356 /* Support */ = {
 			isa = PBXGroup;
 			children = (
@@ -238,11 +222,31 @@
 			name = Support;
 			sourceTree = "<group>";
 		};
+		4E31A43E1ED64800002FC24F /* HMPFirebase */ = {
+			isa = PBXGroup;
+			children = (
+				4E31A43F1ED64800002FC24F /* HMPFirebase.h */,
+				4E31A4401ED64800002FC24F /* Info.plist */,
+				4E31A45A1ED64823002FC24F /* HMPFAuth.h */,
+				4E31A45B1ED64823002FC24F /* HMPFAuth.m */,
+			);
+			path = HMPFirebase;
+			sourceTree = "<group>";
+		};
+		4E31A44B1ED64801002FC24F /* HMPFirebaseTests */ = {
+			isa = PBXGroup;
+			children = (
+				4E31A44C1ED64801002FC24F /* HMPFirebaseTests.m */,
+				4E31A44E1ED64801002FC24F /* Info.plist */,
+			);
+			path = HMPFirebaseTests;
+			sourceTree = "<group>";
+		};
 		70BD51959E2485135B6F52EF /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				7DB72D272AAACC75B01C0FB1 /* Pods-Hampi.debug.xcconfig */,
-				E6C90AC7EF39C3BC236AA421 /* Pods-Hampi.release.xcconfig */,
+				1813403A000A302067AED957 /* Pods-HMPFirebase.debug.xcconfig */,
+				5DFE4B075C022DE905CE5969 /* Pods-HMPFirebase.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -251,6 +255,7 @@
 			isa = PBXGroup;
 			children = (
 				8F21F5D6FDFD26BF2AACE87F /* Pods_Hampi.framework */,
+				F7D8E62AA99072D80C157CDD /* Pods_HMPFirebase.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -258,11 +263,12 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		4E1F1F6B1ED6404800FE3356 /* Headers */ = {
+		4E31A43A1ED64800002FC24F /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4E1F1F801ED6404800FE3356 /* HMPFirebase.h in Headers */,
+				4E31A44F1ED64801002FC24F /* HMPFirebase.h in Headers */,
+				4E31A45C1ED64823002FC24F /* HMPFAuth.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,18 +279,15 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4E1F1F601ED63C6F00FE3356 /* Build configuration list for PBXNativeTarget "Hampi" */;
 			buildPhases = (
-				6A9C9E65E112641B6BF44237 /* [CP] Check Pods Manifest.lock */,
 				4E1F1F2F1ED63C6F00FE3356 /* Sources */,
 				4E1F1F301ED63C6F00FE3356 /* Frameworks */,
 				4E1F1F311ED63C6F00FE3356 /* Resources */,
-				51D2DD8854DFFD6DF3A15E0D /* [CP] Embed Pods Frameworks */,
-				01CF5054631FB3368A0E4098 /* [CP] Copy Pods Resources */,
 				4E1F1F8A1ED6404800FE3356 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				4E1F1F821ED6404800FE3356 /* PBXTargetDependency */,
+				4E31A4511ED64801002FC24F /* PBXTargetDependency */,
 			);
 			name = Hampi;
 			productName = Hampi;
@@ -327,14 +330,14 @@
 			productReference = 4E1F1F571ED63C6F00FE3356 /* HampiUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
-		4E1F1F6D1ED6404800FE3356 /* HMPFirebase */ = {
+		4E31A43C1ED64800002FC24F /* HMPFirebase */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4E1F1F891ED6404800FE3356 /* Build configuration list for PBXNativeTarget "HMPFirebase" */;
+			buildConfigurationList = 4E31A4541ED64801002FC24F /* Build configuration list for PBXNativeTarget "HMPFirebase" */;
 			buildPhases = (
-				4E1F1F691ED6404800FE3356 /* Sources */,
-				4E1F1F6A1ED6404800FE3356 /* Frameworks */,
-				4E1F1F6B1ED6404800FE3356 /* Headers */,
-				4E1F1F6C1ED6404800FE3356 /* Resources */,
+				4E31A4381ED64800002FC24F /* Sources */,
+				4E31A4391ED64800002FC24F /* Frameworks */,
+				4E31A43A1ED64800002FC24F /* Headers */,
+				4E31A43B1ED64800002FC24F /* Resources */,
 			);
 			buildRules = (
 			);
@@ -342,26 +345,26 @@
 			);
 			name = HMPFirebase;
 			productName = HMPFirebase;
-			productReference = 4E1F1F6E1ED6404800FE3356 /* HMPFirebase.framework */;
+			productReference = 4E31A43D1ED64800002FC24F /* HMPFirebase.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		4E1F1F751ED6404800FE3356 /* HMPFirebaseTests */ = {
+		4E31A4441ED64801002FC24F /* HMPFirebaseTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4E1F1F8B1ED6404800FE3356 /* Build configuration list for PBXNativeTarget "HMPFirebaseTests" */;
+			buildConfigurationList = 4E31A4571ED64801002FC24F /* Build configuration list for PBXNativeTarget "HMPFirebaseTests" */;
 			buildPhases = (
-				4E1F1F721ED6404800FE3356 /* Sources */,
-				4E1F1F731ED6404800FE3356 /* Frameworks */,
-				4E1F1F741ED6404800FE3356 /* Resources */,
+				4E31A4411ED64801002FC24F /* Sources */,
+				4E31A4421ED64801002FC24F /* Frameworks */,
+				4E31A4431ED64801002FC24F /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				4E1F1F791ED6404800FE3356 /* PBXTargetDependency */,
-				4E1F1F7B1ED6404800FE3356 /* PBXTargetDependency */,
+				4E31A4481ED64801002FC24F /* PBXTargetDependency */,
+				4E31A44A1ED64801002FC24F /* PBXTargetDependency */,
 			);
 			name = HMPFirebaseTests;
 			productName = HMPFirebaseTests;
-			productReference = 4E1F1F761ED6404800FE3356 /* HMPFirebaseTests.xctest */;
+			productReference = 4E31A4451ED64801002FC24F /* HMPFirebaseTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -390,12 +393,12 @@
 						ProvisioningStyle = Automatic;
 						TestTargetID = 4E1F1F321ED63C6F00FE3356;
 					};
-					4E1F1F6D1ED6404800FE3356 = {
+					4E31A43C1ED64800002FC24F = {
 						CreatedOnToolsVersion = 8.3.2;
 						DevelopmentTeam = U9QF88MGC2;
 						ProvisioningStyle = Automatic;
 					};
-					4E1F1F751ED6404800FE3356 = {
+					4E31A4441ED64801002FC24F = {
 						CreatedOnToolsVersion = 8.3.2;
 						DevelopmentTeam = U9QF88MGC2;
 						ProvisioningStyle = Automatic;
@@ -419,8 +422,8 @@
 				4E1F1F321ED63C6F00FE3356 /* Hampi */,
 				4E1F1F4B1ED63C6F00FE3356 /* HampiTests */,
 				4E1F1F561ED63C6F00FE3356 /* HampiUITests */,
-				4E1F1F6D1ED6404800FE3356 /* HMPFirebase */,
-				4E1F1F751ED6404800FE3356 /* HMPFirebaseTests */,
+				4E31A43C1ED64800002FC24F /* HMPFirebase */,
+				4E31A4441ED64801002FC24F /* HMPFirebaseTests */,
 			);
 		};
 /* End PBXProject section */
@@ -451,15 +454,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4E1F1F6C1ED6404800FE3356 /* Resources */ = {
+		4E31A43B1ED64800002FC24F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4E1F1F8F1ED640B700FE3356 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4E1F1F741ED6404800FE3356 /* Resources */ = {
+		4E31A4431ED64801002FC24F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -467,54 +469,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		01CF5054631FB3368A0E4098 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Hampi/Pods-Hampi-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		51D2DD8854DFFD6DF3A15E0D /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Hampi/Pods-Hampi-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		6A9C9E65E112641B6BF44237 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		4E1F1F2F1ED63C6F00FE3356 /* Sources */ = {
@@ -542,18 +496,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4E1F1F691ED6404800FE3356 /* Sources */ = {
+		4E31A4381ED64800002FC24F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E31A45D1ED64823002FC24F /* HMPFAuth.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4E1F1F721ED6404800FE3356 /* Sources */ = {
+		4E31A4411ED64801002FC24F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4E1F1F7E1ED6404800FE3356 /* HMPFirebaseTests.m in Sources */,
+				4E31A44D1ED64801002FC24F /* HMPFirebaseTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -570,20 +525,20 @@
 			target = 4E1F1F321ED63C6F00FE3356 /* Hampi */;
 			targetProxy = 4E1F1F581ED63C6F00FE3356 /* PBXContainerItemProxy */;
 		};
-		4E1F1F791ED6404800FE3356 /* PBXTargetDependency */ = {
+		4E31A4481ED64801002FC24F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 4E1F1F6D1ED6404800FE3356 /* HMPFirebase */;
-			targetProxy = 4E1F1F781ED6404800FE3356 /* PBXContainerItemProxy */;
+			target = 4E31A43C1ED64800002FC24F /* HMPFirebase */;
+			targetProxy = 4E31A4471ED64801002FC24F /* PBXContainerItemProxy */;
 		};
-		4E1F1F7B1ED6404800FE3356 /* PBXTargetDependency */ = {
+		4E31A44A1ED64801002FC24F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 4E1F1F321ED63C6F00FE3356 /* Hampi */;
-			targetProxy = 4E1F1F7A1ED6404800FE3356 /* PBXContainerItemProxy */;
+			targetProxy = 4E31A4491ED64801002FC24F /* PBXContainerItemProxy */;
 		};
-		4E1F1F821ED6404800FE3356 /* PBXTargetDependency */ = {
+		4E31A4511ED64801002FC24F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 4E1F1F6D1ED6404800FE3356 /* HMPFirebase */;
-			targetProxy = 4E1F1F811ED6404800FE3356 /* PBXContainerItemProxy */;
+			target = 4E31A43C1ED64800002FC24F /* HMPFirebase */;
+			targetProxy = 4E31A4501ED64801002FC24F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -701,9 +656,9 @@
 		};
 		4E1F1F611ED63C6F00FE3356 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7DB72D272AAACC75B01C0FB1 /* Pods-Hampi.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
 				DEVELOPMENT_TEAM = U9QF88MGC2;
 				INFOPLIST_FILE = Hampi/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -714,9 +669,9 @@
 		};
 		4E1F1F621ED63C6F00FE3356 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E6C90AC7EF39C3BC236AA421 /* Pods-Hampi.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
 				DEVELOPMENT_TEAM = U9QF88MGC2;
 				INFOPLIST_FILE = Hampi/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -775,7 +730,7 @@
 			};
 			name = Release;
 		};
-		4E1F1F851ED6404800FE3356 /* Debug */ = {
+		4E31A4551ED64801002FC24F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
@@ -788,7 +743,7 @@
 				INFOPLIST_FILE = HMPFirebase/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = NSBeard.HMPFirebase;
+				PRODUCT_BUNDLE_IDENTIFIER = Hamp.HMPFirebase;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -796,7 +751,7 @@
 			};
 			name = Debug;
 		};
-		4E1F1F861ED6404800FE3356 /* Release */ = {
+		4E31A4561ED64801002FC24F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
@@ -809,7 +764,7 @@
 				INFOPLIST_FILE = HMPFirebase/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = NSBeard.HMPFirebase;
+				PRODUCT_BUNDLE_IDENTIFIER = Hamp.HMPFirebase;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -817,25 +772,25 @@
 			};
 			name = Release;
 		};
-		4E1F1F871ED6404800FE3356 /* Debug */ = {
+		4E31A4581ED64801002FC24F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DEVELOPMENT_TEAM = U9QF88MGC2;
 				INFOPLIST_FILE = HMPFirebaseTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = NSBeard.HMPFirebaseTests;
+				PRODUCT_BUNDLE_IDENTIFIER = Hamp.HMPFirebaseTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hampi.app/Hampi";
 			};
 			name = Debug;
 		};
-		4E1F1F881ED6404800FE3356 /* Release */ = {
+		4E31A4591ED64801002FC24F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DEVELOPMENT_TEAM = U9QF88MGC2;
 				INFOPLIST_FILE = HMPFirebaseTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = NSBeard.HMPFirebaseTests;
+				PRODUCT_BUNDLE_IDENTIFIER = Hamp.HMPFirebaseTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hampi.app/Hampi";
 			};
@@ -880,19 +835,19 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4E1F1F891ED6404800FE3356 /* Build configuration list for PBXNativeTarget "HMPFirebase" */ = {
+		4E31A4541ED64801002FC24F /* Build configuration list for PBXNativeTarget "HMPFirebase" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4E1F1F851ED6404800FE3356 /* Debug */,
-				4E1F1F861ED6404800FE3356 /* Release */,
+				4E31A4551ED64801002FC24F /* Debug */,
+				4E31A4561ED64801002FC24F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
-		4E1F1F8B1ED6404800FE3356 /* Build configuration list for PBXNativeTarget "HMPFirebaseTests" */ = {
+		4E31A4571ED64801002FC24F /* Build configuration list for PBXNativeTarget "HMPFirebaseTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4E1F1F871ED6404800FE3356 /* Debug */,
-				4E1F1F881ED6404800FE3356 /* Release */,
+				4E31A4581ED64801002FC24F /* Debug */,
+				4E31A4591ED64801002FC24F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
