@@ -1,0 +1,541 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4E1F1F381ED63C6F00FE3356 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E1F1F371ED63C6F00FE3356 /* main.m */; };
+		4E1F1F3B1ED63C6F00FE3356 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E1F1F3A1ED63C6F00FE3356 /* AppDelegate.m */; };
+		4E1F1F3E1ED63C6F00FE3356 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E1F1F3D1ED63C6F00FE3356 /* ViewController.m */; };
+		4E1F1F411ED63C6F00FE3356 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E1F1F3F1ED63C6F00FE3356 /* Main.storyboard */; };
+		4E1F1F431ED63C6F00FE3356 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E1F1F421ED63C6F00FE3356 /* Assets.xcassets */; };
+		4E1F1F461ED63C6F00FE3356 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E1F1F441ED63C6F00FE3356 /* LaunchScreen.storyboard */; };
+		4E1F1F511ED63C6F00FE3356 /* HampiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E1F1F501ED63C6F00FE3356 /* HampiTests.m */; };
+		4E1F1F5C1ED63C6F00FE3356 /* HampiUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E1F1F5B1ED63C6F00FE3356 /* HampiUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4E1F1F4D1ED63C6F00FE3356 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4E1F1F2B1ED63C6F00FE3356 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4E1F1F321ED63C6F00FE3356;
+			remoteInfo = Hampi;
+		};
+		4E1F1F581ED63C6F00FE3356 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4E1F1F2B1ED63C6F00FE3356 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4E1F1F321ED63C6F00FE3356;
+			remoteInfo = Hampi;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4E1F1F331ED63C6F00FE3356 /* Hampi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hampi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E1F1F371ED63C6F00FE3356 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4E1F1F391ED63C6F00FE3356 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4E1F1F3A1ED63C6F00FE3356 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4E1F1F3C1ED63C6F00FE3356 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4E1F1F3D1ED63C6F00FE3356 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4E1F1F401ED63C6F00FE3356 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4E1F1F421ED63C6F00FE3356 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4E1F1F451ED63C6F00FE3356 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4E1F1F471ED63C6F00FE3356 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E1F1F4C1ED63C6F00FE3356 /* HampiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HampiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E1F1F501ED63C6F00FE3356 /* HampiTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HampiTests.m; sourceTree = "<group>"; };
+		4E1F1F521ED63C6F00FE3356 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E1F1F571ED63C6F00FE3356 /* HampiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HampiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E1F1F5B1ED63C6F00FE3356 /* HampiUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HampiUITests.m; sourceTree = "<group>"; };
+		4E1F1F5D1ED63C6F00FE3356 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4E1F1F301ED63C6F00FE3356 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E1F1F491ED63C6F00FE3356 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E1F1F541ED63C6F00FE3356 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4E1F1F2A1ED63C6F00FE3356 = {
+			isa = PBXGroup;
+			children = (
+				4E1F1F351ED63C6F00FE3356 /* Hampi */,
+				4E1F1F4F1ED63C6F00FE3356 /* HampiTests */,
+				4E1F1F5A1ED63C6F00FE3356 /* HampiUITests */,
+				4E1F1F341ED63C6F00FE3356 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4E1F1F341ED63C6F00FE3356 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4E1F1F331ED63C6F00FE3356 /* Hampi.app */,
+				4E1F1F4C1ED63C6F00FE3356 /* HampiTests.xctest */,
+				4E1F1F571ED63C6F00FE3356 /* HampiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4E1F1F351ED63C6F00FE3356 /* Hampi */ = {
+			isa = PBXGroup;
+			children = (
+				4E1F1F391ED63C6F00FE3356 /* AppDelegate.h */,
+				4E1F1F3A1ED63C6F00FE3356 /* AppDelegate.m */,
+				4E1F1F3C1ED63C6F00FE3356 /* ViewController.h */,
+				4E1F1F3D1ED63C6F00FE3356 /* ViewController.m */,
+				4E1F1F3F1ED63C6F00FE3356 /* Main.storyboard */,
+				4E1F1F421ED63C6F00FE3356 /* Assets.xcassets */,
+				4E1F1F441ED63C6F00FE3356 /* LaunchScreen.storyboard */,
+				4E1F1F471ED63C6F00FE3356 /* Info.plist */,
+				4E1F1F361ED63C6F00FE3356 /* Supporting Files */,
+			);
+			path = Hampi;
+			sourceTree = "<group>";
+		};
+		4E1F1F361ED63C6F00FE3356 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4E1F1F371ED63C6F00FE3356 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4E1F1F4F1ED63C6F00FE3356 /* HampiTests */ = {
+			isa = PBXGroup;
+			children = (
+				4E1F1F501ED63C6F00FE3356 /* HampiTests.m */,
+				4E1F1F521ED63C6F00FE3356 /* Info.plist */,
+			);
+			path = HampiTests;
+			sourceTree = "<group>";
+		};
+		4E1F1F5A1ED63C6F00FE3356 /* HampiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4E1F1F5B1ED63C6F00FE3356 /* HampiUITests.m */,
+				4E1F1F5D1ED63C6F00FE3356 /* Info.plist */,
+			);
+			path = HampiUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4E1F1F321ED63C6F00FE3356 /* Hampi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E1F1F601ED63C6F00FE3356 /* Build configuration list for PBXNativeTarget "Hampi" */;
+			buildPhases = (
+				4E1F1F2F1ED63C6F00FE3356 /* Sources */,
+				4E1F1F301ED63C6F00FE3356 /* Frameworks */,
+				4E1F1F311ED63C6F00FE3356 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Hampi;
+			productName = Hampi;
+			productReference = 4E1F1F331ED63C6F00FE3356 /* Hampi.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4E1F1F4B1ED63C6F00FE3356 /* HampiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E1F1F631ED63C6F00FE3356 /* Build configuration list for PBXNativeTarget "HampiTests" */;
+			buildPhases = (
+				4E1F1F481ED63C6F00FE3356 /* Sources */,
+				4E1F1F491ED63C6F00FE3356 /* Frameworks */,
+				4E1F1F4A1ED63C6F00FE3356 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4E1F1F4E1ED63C6F00FE3356 /* PBXTargetDependency */,
+			);
+			name = HampiTests;
+			productName = HampiTests;
+			productReference = 4E1F1F4C1ED63C6F00FE3356 /* HampiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4E1F1F561ED63C6F00FE3356 /* HampiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E1F1F661ED63C6F00FE3356 /* Build configuration list for PBXNativeTarget "HampiUITests" */;
+			buildPhases = (
+				4E1F1F531ED63C6F00FE3356 /* Sources */,
+				4E1F1F541ED63C6F00FE3356 /* Frameworks */,
+				4E1F1F551ED63C6F00FE3356 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4E1F1F591ED63C6F00FE3356 /* PBXTargetDependency */,
+			);
+			name = HampiUITests;
+			productName = HampiUITests;
+			productReference = 4E1F1F571ED63C6F00FE3356 /* HampiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4E1F1F2B1ED63C6F00FE3356 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = com.hamp;
+				TargetAttributes = {
+					4E1F1F321ED63C6F00FE3356 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = U9QF88MGC2;
+						ProvisioningStyle = Automatic;
+					};
+					4E1F1F4B1ED63C6F00FE3356 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = U9QF88MGC2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4E1F1F321ED63C6F00FE3356;
+					};
+					4E1F1F561ED63C6F00FE3356 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = U9QF88MGC2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4E1F1F321ED63C6F00FE3356;
+					};
+				};
+			};
+			buildConfigurationList = 4E1F1F2E1ED63C6F00FE3356 /* Build configuration list for PBXProject "Hampi" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4E1F1F2A1ED63C6F00FE3356;
+			productRefGroup = 4E1F1F341ED63C6F00FE3356 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4E1F1F321ED63C6F00FE3356 /* Hampi */,
+				4E1F1F4B1ED63C6F00FE3356 /* HampiTests */,
+				4E1F1F561ED63C6F00FE3356 /* HampiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4E1F1F311ED63C6F00FE3356 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E1F1F461ED63C6F00FE3356 /* LaunchScreen.storyboard in Resources */,
+				4E1F1F431ED63C6F00FE3356 /* Assets.xcassets in Resources */,
+				4E1F1F411ED63C6F00FE3356 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E1F1F4A1ED63C6F00FE3356 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E1F1F551ED63C6F00FE3356 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4E1F1F2F1ED63C6F00FE3356 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E1F1F3E1ED63C6F00FE3356 /* ViewController.m in Sources */,
+				4E1F1F3B1ED63C6F00FE3356 /* AppDelegate.m in Sources */,
+				4E1F1F381ED63C6F00FE3356 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E1F1F481ED63C6F00FE3356 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E1F1F511ED63C6F00FE3356 /* HampiTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E1F1F531ED63C6F00FE3356 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E1F1F5C1ED63C6F00FE3356 /* HampiUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4E1F1F4E1ED63C6F00FE3356 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4E1F1F321ED63C6F00FE3356 /* Hampi */;
+			targetProxy = 4E1F1F4D1ED63C6F00FE3356 /* PBXContainerItemProxy */;
+		};
+		4E1F1F591ED63C6F00FE3356 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4E1F1F321ED63C6F00FE3356 /* Hampi */;
+			targetProxy = 4E1F1F581ED63C6F00FE3356 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4E1F1F3F1ED63C6F00FE3356 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4E1F1F401ED63C6F00FE3356 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4E1F1F441ED63C6F00FE3356 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4E1F1F451ED63C6F00FE3356 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4E1F1F5E1ED63C6F00FE3356 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4E1F1F5F1ED63C6F00FE3356 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4E1F1F611ED63C6F00FE3356 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = U9QF88MGC2;
+				INFOPLIST_FILE = Hampi/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = NSBeard.Hampi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4E1F1F621ED63C6F00FE3356 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = U9QF88MGC2;
+				INFOPLIST_FILE = Hampi/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = NSBeard.Hampi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4E1F1F641ED63C6F00FE3356 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = U9QF88MGC2;
+				INFOPLIST_FILE = HampiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = NSBeard.HampiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hampi.app/Hampi";
+			};
+			name = Debug;
+		};
+		4E1F1F651ED63C6F00FE3356 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = U9QF88MGC2;
+				INFOPLIST_FILE = HampiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = NSBeard.HampiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hampi.app/Hampi";
+			};
+			name = Release;
+		};
+		4E1F1F671ED63C6F00FE3356 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = U9QF88MGC2;
+				INFOPLIST_FILE = HampiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = NSBeard.HampiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Hampi;
+			};
+			name = Debug;
+		};
+		4E1F1F681ED63C6F00FE3356 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = U9QF88MGC2;
+				INFOPLIST_FILE = HampiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = NSBeard.HampiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Hampi;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4E1F1F2E1ED63C6F00FE3356 /* Build configuration list for PBXProject "Hampi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E1F1F5E1ED63C6F00FE3356 /* Debug */,
+				4E1F1F5F1ED63C6F00FE3356 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4E1F1F601ED63C6F00FE3356 /* Build configuration list for PBXNativeTarget "Hampi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E1F1F611ED63C6F00FE3356 /* Debug */,
+				4E1F1F621ED63C6F00FE3356 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4E1F1F631ED63C6F00FE3356 /* Build configuration list for PBXNativeTarget "HampiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E1F1F641ED63C6F00FE3356 /* Debug */,
+				4E1F1F651ED63C6F00FE3356 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4E1F1F661ED63C6F00FE3356 /* Build configuration list for PBXNativeTarget "HampiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E1F1F671ED63C6F00FE3356 /* Debug */,
+				4E1F1F681ED63C6F00FE3356 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4E1F1F2B1ED63C6F00FE3356 /* Project object */;
+}
